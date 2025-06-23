@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syaeful Ardhi Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">WELCOME</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="contact-btn">Contact Me</button>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <p class="greeting">hello i am ardhi</p>
+            <h1>Syaeful Ardhi <span id="dynamic-text"></span><span class="cursor">|</span></h1>
+            <p>Selamat datang di website Fortopolio saya</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://wa.me/NOMORTELEPONANDA" class="social-icon whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <button class="see-more-btn">SEE MORE...</button>
+        </div>
+        <div class="hero-image">
+            <img src="ardhi.jpg" alt="Ardhi">
+        </div>
+        <div class="mouse-trail-container"></div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="section-title">ABOUT ME</div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="bochi the rock.jpg" alt="Bocchi the Rock">
+            </div>
+            <div class="about-text">
+                <p>Hi! Saya Ardhi.</p>
+                <p>
+                    Saya adalah seorang Software programer karena saya belum pasti disebut developer, saya juga sebagai User Linux di laptop saya, saya menyukai berbau machine learning.<br><br>
+                    Saya Juga suka Bermain game, Tetapi Saya tidak Suka bermaain Game yang Berkompetitif, Saya menyukai Game enjoy Seperti Game di Steam, Genshin Impact, Honkai Starrail dan Game Zenless Zone Zero.<br><br>
+                    Saya punya skill dari HTML. Saya mahir dalam ini, karena ini termasuk standar dan basicnya dari pemrograman di bidang Software Web Developer.<br>
+                    CSS saya paham dari cara warnanya, perubahan, kontras warnanya juga, ukurannya juga.<br><br>
+                    Untuk JavaScript, jujur saya menyukai bahasa ini karena menantang bagi saya. Saat saya belajar JavaScript ini serasa banyak sekali yang harus dipahami, terutama dari algoritma, logika, dan skill bahasa Inggris juga berpengaruh.<br>
+                    Saya paham JavaScript masih di level medium, meskipun saya menyukai bahasa pemrograman ini.<br><br>
+                    Python adalah bahasa yang paling mudah dimengerti untuk awal-awal. Namun, kalau makin masuk ke dalam bahasanya, maka sama saja susahnya seperti bahasa lainnya.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-title">SKILLS</div>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <i class="fas fa-music"></i>
+                <p>Music Writer</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-file-audio"></i>
+                <p>Music Transcription</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-js-square"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-git-alt"></i>
+                <p>Git</p>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-github"></i>
+                <p>GitHub</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-code"></i>
+                <p>VSCode</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="section-title">PROJECTS</div>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-details">
+                    <h3>Project Title 1</h3>
+                    <p>Project analis data di kaggle  dengan tema spotfy</p>
+                    <a href="https://github.com/AyakaSenpai/nama-syaeful-ardhi_231011401249" class="visit-site-btn">Visit Site</a>
+                </div>
+                <div class="emotion-based-spotify-song-recommender">
+                    <img src="download.png" alt="project 1">
+                </div>
+                <div class="project-meta">
+                    <span class="role"> Analisis Data Kaggle Spotfy</span>
+                    <span class="client-satisfaction">Jupyter Notebook 100.0%</span>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-title">Bisa Hubungi Saya</div>
+        <p class="tagline">Semoga bisa bekerjasama xixixi</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Enter your Message"></textarea>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-social-icons">
+            <a href="https://www.facebook.com/share/19G9VAcPqM/" class="social-icon facebook-footer"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/syaeful.ardi.79?igsh=cmw5dWlra2Z1c3Vy" class="social-icon instagram-footer"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/AyakaSenpai" class="social-icon github-footer"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/message/PSPYCOZIXI5KO1" class="social-icon whatsapp-footer" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="email-info">email saya <a href="Syaefulardhi04@gmail.com">Syaefulardhi04@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
